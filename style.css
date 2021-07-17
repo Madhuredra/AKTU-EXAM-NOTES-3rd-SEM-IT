@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right , #DBE6FD,#FFEEDB );
+}
+.notes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+td{
+    color: black;
+    border:50px solid transparent;
+    background-color: #F0D9E7;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+table{
+    border-spacing: 50px 20px;
+}
+a{
+    text-align: center;
+}
+a:hover{
+    color:blueviolet;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:visited{
+    background-color:Black;
+}
+h3,h4,h2{
+    text-align: center;
+    text-shadow: 3px 3px 3px #ababab;
+    font-family: "Sofia" ,sans-serif;
+}
+p{
+    font-size: 15px;
+}
+footer{
+    text-align: right;
+}
+@keyframes example {
+    10%   {background-color:violet;}
+    20%  {background-color: yellow;}
+    30%  {background-color: lightseagreen;}
+    25% {background-color: lightskyblue;}
+  }
+  strong{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    animation-name: example;
+    animation-duration:4s;
+    animation-delay: -2s;
+    animation-iteration-count: 10;
+  }
