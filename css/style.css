@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right ,pink,lightseagreen);
+}
+/* .headings{
+    background-color: lightsteelblue;
+    width: 800px;
+    
+} */
+.headings,.notes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+td{
+    color: black;
+    border:50px solid transparent;
+    position:relative;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+td:hover{
+    transform: perspective(500px) translateZ(80px);
+    /* transform: translate3d(30px,0px,0px);? */
+    background-color:yellowgreen;
+}
+table{
+    border-spacing: 50px 20px;
+}
+.cen{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.must,.pyq{
+    width: 250px;
+}
+a{
+    text-align: center;
+}
+.md:hover{
+    transform: perspective(500px) translateZ(80px);
+    background-color: lightskyblue;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover{
+    color:black;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:visited{
+    background-color:Black;
+}
+h2{
+    background-color: lightskyblue;
+    text-shadow: 3px 3px 3px #ababab;
+    font-family: sans-serif;
+    width: 850px;
+}
+p{
+    font-size: 15px;
+}
+footer{
+    text-align: right;
+}
+@keyframes example {
+    10%   {background-color:violet;}
+    20%  {background-color: yellow;}
+    30%  {background-color: lightseagreen;}
+    25% {background-color: lightskyblue;}
+  }
+  strong{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    animation-name: example;
+    animation-duration:4s;
+    animation-delay: -2s;
+    animation-iteration-count: 10;
+  }
